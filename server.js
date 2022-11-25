@@ -4,7 +4,7 @@ const cors = require("cors");
 const app = express();
 const db = require("./app/models");
 const dbURI =
-  "mongodb+srv://imviharevankar:IF1aWZ3rA6ayH4eQ@cluster0.i0mmn.mongodb.net/db_bluffzone";
+  "mongodb+srv://imviharevankar:2F8XLiFfTA2z6Pvn@cluster0.i0mmn.mongodb.net/db_bluffzone";
 
 app.use(cors());
 app.use(express.urlencoded({ extended: true }));
